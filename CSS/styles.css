@@ -1,0 +1,39 @@
+/*****************************************TAG SELECTORS***********************************/
+
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+h1:hover{
+  color: black;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+p:hover {
+  color: orange;
+}
+
+/*****************************************CLASS SELECTORS***********************************/
+.bacon {
+  background-color: green;
+}
+
+.apple {
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%
+}
+
+/*****************************************ID SELECTORS***********************************/
+#heading {
+  color: blue;
+}
+
+/****因为ID override TAG,所以，有ID的情况下，h1不能hover改变颜色。若把ID删除，则一切正常！***/
+/****pseudo class states of any HTML element i.e.<p> <h1>, in order to effect its style.***/
